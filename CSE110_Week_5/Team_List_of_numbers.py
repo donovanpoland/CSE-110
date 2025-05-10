@@ -31,7 +31,7 @@ print(f"The average is {average}")
 for number in numbers:
     if number >= largest:
         largest = number
-print(f"The largest nubmer is {largest}")
+print(f"The largest number is {largest}")
 
 
 
@@ -44,9 +44,9 @@ for number in numbers:
          smallest_positive = number
 
 
-print(f"\nThe smallest nubmer using a for loop {smallest}")
+print(f"\nThe smallest number using a for loop {smallest}")
 
-print(f"The smallest positve nubmer is {smallest_positive}")
+print(f"The smallest positive number is {smallest_positive}")
 
 
 alt_smallest_number = min(numbers)

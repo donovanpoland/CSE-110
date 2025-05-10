@@ -7,7 +7,7 @@ high_score = 100
 #number = 7
 guess_count = 1
 
-print("A random intiger between 1 and 100 will be generated every round, guess the number and win.")
+print("A random integer between 1 and 100 will be generated every round, guess the number and win.")
 #convert all user input of the magic number to floats to prevent the user from breaking the code by typing a float
 guess = float(input("What is the magic number? "))
 
@@ -30,7 +30,7 @@ while play_again == "yes":
     print(f"Correct! The magic number was {random_number}. You guessed the magic number in {guess_count} guesses!")
     play_again = input("Can you beet your high score? Would you like to play again? ")
     if play_again.lower() == "yes": 
-        #check highscore and print        
+        #check high score and print        
         if guess_count < high_score:
             high_score = guess_count
             print(f"Your new high score is {high_score}.")
